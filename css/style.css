@@ -1065,7 +1065,7 @@ body.ie ._ibg img {
 
 .hero-content__girl {
 	position: relative;
-	width: 250px;
+	width: 280px;
 }
 .hero-content__girl img {
 	width: 100%;
@@ -1100,6 +1100,12 @@ body.ie ._ibg img {
 	.hero-content__tippy {
 		width: 60px;
 		height: 60px;
+		top: 76%;
+	}
+}
+@media (max-width: 480px) {
+	.hero-content__tippy {
+		top: 67%;
 	}
 }
 
