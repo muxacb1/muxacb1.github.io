@@ -858,7 +858,7 @@ body.ie ._ibg img {
 	background: #002E62;
 	color: #fff;
 	border-radius: 4px;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.4;
 	outline: 0;
 	-webkit-transition-property: visibility, opacity, -webkit-transform;
@@ -1041,9 +1041,6 @@ body.ie ._ibg img {
 	        flex: 0 0 300px;
 	margin: 50px 80px 0px 0px;
 }
-.hero-content__right img {
-	width: 100%;
-}
 @media (max-width: 1070px) {
 	.hero-content__right {
 		-webkit-box-flex: 0;
@@ -1064,15 +1061,11 @@ body.ie ._ibg img {
 		        justify-content: center;
 		height: 320px;
 	}
-	.hero-content__right img {
-		height: 550px;
-		width: auto;
-	}
 }
 
 .hero-content__girl {
 	position: relative;
-	width: 300px;
+	width: 250px;
 }
 .hero-content__girl img {
 	width: 100%;
