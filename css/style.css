@@ -571,6 +571,7 @@ body.ie ._ibg img {
 @media (max-width: 480px) {
 	.logoblock__img {
 		width: 34px;
+		margin: 0;
 	}
 }
 
@@ -839,7 +840,8 @@ body.ie ._ibg img {
 }
 @media (max-width: 480px) {
 	.icon-menu {
-		top: 0;
+		top: -2px;
+		right: -2px;
 	}
 }
 
@@ -1060,6 +1062,7 @@ body.ie ._ibg img {
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
 		        justify-content: center;
+		height: 400px;
 	}
 	.hero-content__right img {
 		height: 550px;
@@ -1148,7 +1151,7 @@ body.ie ._ibg img {
 	z-index: 1;
 }
 .red-btn span::after {
-	content: "►";
+	content: "";
 	position: absolute;
 	top: 50%;
 	right: 40%;
@@ -1157,6 +1160,10 @@ body.ie ._ibg img {
 	        transform: translate(0, -50%);
 	font-size: 20px;
 	z-index: 2;
+	background: url("../img/icons/btn-arrow-r.svg") no-repeat;
+	background-size: contain;
+	width: 16px;
+	height: 16px;
 }
 @media (max-width: 768px) {
 	.red-btn {
