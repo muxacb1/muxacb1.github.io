@@ -841,6 +841,10 @@ body.ie ._ibg img {
 @media (max-width: 480px) {
 	.icon-menu {
 		top: -2px;
+	}
+}
+@media (max-width: 320px) {
+	.icon-menu {
 		right: -2px;
 	}
 }
