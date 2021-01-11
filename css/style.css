@@ -1448,6 +1448,9 @@ body.ie ._ibg img {
 		width: 100%;
 		left: 0;
 	}
+	.footer-column__icons img {
+		margin: 0px 15px;
+	}
 }
 
 .footer__line {
