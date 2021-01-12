@@ -1170,7 +1170,7 @@ body.ie ._ibg img {
 	display: -ms-flexbox;
 	display: flex;
 	font-size: 0;
-	padding: 80px 70px;
+	padding: 80px 70px 0px 70px;
 }
 @media (max-width: 768px) {
 	.hero-content__row {
