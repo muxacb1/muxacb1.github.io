@@ -130,22 +130,6 @@ body._lock {
 	}
 }
 
-.btn {
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	padding: 10px 20px;
-	background: #978;
-}
-@media (min-width: 992px) {
-	.btn:hover {
-		background: #9AA895;
-	}
-}
-.btn._fw {
-	width: 100%;
-}
-
 input[type=text],
 input[type=email],
 input[type=tel],
