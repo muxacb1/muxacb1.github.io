@@ -1,9 +1,6 @@
 var mySwiper = new Swiper('.swiper-container', {
-  // Optional parameters
-  //direction: 'vertical',
-  //loop: true,
-  autoHeight: true,
-spaceBetween: 41,
+    autoHeight: true,
+    spaceBetween: 41,
     pagination: {
     el: '.swiper-pagination',
     type: 'fraction',
