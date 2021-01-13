@@ -155,13 +155,13 @@
 						<div class="additional__row">
 							<div class="additional__infoblock additional-infoblock">
 								<div class="additional-infoblock__row">
-									<div class="spollers-block _spollers _one pageNav">
+									<div class="spollers-block _spollers _one tabs">
 										<div class="spollers-block__item">
 											<div class="spollers-block__title _spoller _active"><img src="img/additional/1.svg" alt="">Доли в квартире</div>
 											<div class="spollers-block__body" style="display: block">
 												<ul>
-													<li class="pageNav__tabItem pageNav__tabItem--active">Срочный выкуп долей</li>
-													<li class="pageNav__tabItem">Реализация долей для прописки</li>
+													<li class="js-tab-trigger active" data-tab="1">Срочный выкуп долей</li>
+													<li class="js-tab-trigger" data-tab="2">Реализация долей для прописки</li>
 													<li>Подбор долей для проживания</li>
 													<li>Расселение дольщиков</li>
 													<li>Выезд оценщика бесплатно</li>
@@ -172,7 +172,7 @@
 											<div class="spollers-block__title _spoller"><img src="img/additional/2.svg" alt="">Новостройки</div>
 											<div class="spollers-block__body">
 												<ul>
-													<li>Ипотека новостроек</li>
+													<li class="js-tab-trigger" data-tab="3">Ипотека новостроек</li>
 													<li>Покупка квартир в новостройках эконом-, комфорт-, бизнес-класса</li>
 												</ul>
 											</div>
@@ -273,15 +273,21 @@
 							<div class="additional-infoblock__textblock additional-textblock">
 								<h3 data-da="additional__row,0,990" class="additional__title">Дополнительные <span>услуги:</span></h3>
 
-								<div class="additional-textblock__content pageNav__contentItem pageNav__contentItem--active">
-									<p class="additional-textblock__title">Доли в квартире для регистрации</p>
+								<div class="additional-textblock__content js-tab-content active" data-tab="1">
+									<p class="additional-textblock__title">Срочный выкуп долей</p>
 									<p class="additional-textblock__text">Выберите любую долю и оформите предварительную заявку наш менеджер свяжется с вами и объяснит дальнейшие действия для того что бы получить постоянную Московскую регистрацию.</p>
 									<a href="#" class="red-btn">подробнее<span></span></a>
 								</div>
 
-								<div class="additional-textblock__content pageNav__contentItem">
-									<p class="additional-textblock__title">Подбор долей для проживания</p>
+								<div class="additional-textblock__content js-tab-content" data-tab="2">
+									<p class="additional-textblock__title">Реализация долей для прописки</p>
 									<p class="additional-textblock__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, numquam.</p>
+									<a href="#" class="red-btn">подробнее<span></span></a>
+								</div>
+
+								<div class="additional-textblock__content js-tab-content" data-tab="3">
+									<p class="additional-textblock__title">Ипотека новостроек</p>
+									<p class="additional-textblock__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi provident facilis ipsa deserunt quo temporibus, saepe rem incidunt ea, debitis.</p>
 									<a href="#" class="red-btn">подробнее<span></span></a>
 								</div>
 
@@ -612,9 +618,11 @@
 			<p>Отправляя любую форму на сайте, Вы соглашаетесь с политикой конфидициальности данного сайта</p>
 		</div>
 	</div>
-</footer>		</div>
+</footer>
+</div>
 		<script src="js/vendors.js?v=8"></script>
 		<script src="js/app.js?v=8"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="js/custom.js?v=8"></script>
 	</body>
 </html>

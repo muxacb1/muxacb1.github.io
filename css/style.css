@@ -1354,20 +1354,22 @@ body.ie ._ibg img {
 	width: 16px;
 	height: 16px;
 }
-.pageNav__contentItem {
+
+.js-tab-content {
 	display: none;
 }
-.pageNav__contentItem--active {
+.js-tab-content.active {
 	display: block;
 }
-.pageNav__tabItem {
+.js-tab-trigger {
 	color: #67BDFD;
 	text-decoration: underline;
 	cursor: pointer;
 }
-.pageNav__tabItem:hover {
+.js-tab-trigger:hover {
 	text-decoration: none;
 }
+
 .additional-header {
 	background: url("../img/additional/bg.jpg") no-repeat;
 	background-size: cover;

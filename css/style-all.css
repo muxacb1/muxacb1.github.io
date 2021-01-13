@@ -1869,18 +1869,18 @@ body.ie ._ibg img {
 		margin: 0;
 	}
 }
-.pageNav__contentItem {
+.js-tab-content {
 	display: none;
 }
-.pageNav__contentItem--active {
+.js-tab-content.active {
 	display: block;
 }
-.pageNav__tabItem {
+.js-tab-trigger {
 	color: #67BDFD;
 	text-decoration: underline;
 	cursor: pointer;
 }
-.pageNav__tabItem:hover {
+.js-tab-trigger:hover {
 	text-decoration: none;
 }
 
