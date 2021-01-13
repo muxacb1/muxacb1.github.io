@@ -1354,7 +1354,20 @@ body.ie ._ibg img {
 	width: 16px;
 	height: 16px;
 }
-
+.pageNav__contentItem {
+	display: none;
+}
+.pageNav__contentItem--active {
+	display: block;
+}
+.pageNav__tabItem {
+	color: #67BDFD;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.pageNav__tabItem:hover {
+	text-decoration: none;
+}
 .additional-header {
 	background: url("../img/additional/bg.jpg") no-repeat;
 	background-size: cover;
