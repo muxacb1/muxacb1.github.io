@@ -1416,6 +1416,15 @@ body.ie ._ibg img {
 	font-size: 15px;
 	padding: 10px 33px;
 	display: inline-block;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.services-item__btn:hover {
+	background: #3e59c4;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
 }
 
 .services__tt {
