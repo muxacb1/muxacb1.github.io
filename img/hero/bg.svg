@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1920px" height="697px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 641.811 233.075"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str3 {stroke:#313562;stroke-width:0.314;stroke-miterlimit:22.9256}
+    .str2 {stroke:#3E59C4;stroke-width:0.314;stroke-miterlimit:22.9256}
+    .str1 {stroke:#D36528;stroke-width:0.314;stroke-miterlimit:22.9256}
+    .str0 {stroke:#FF7101;stroke-width:0.314;stroke-miterlimit:22.9256}
+    .fil3 {fill:#313562}
+    .fil2 {fill:#3E59C4}
+    .fil1 {fill:#D36528}
+    .fil0 {fill:#FF7101}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0 str0" points="0.157,0.157 349.769,0.157 279.345,110.274 0.157,110.274 "/>
+  <polygon class="fil1 str1" points="0.157,232.917 349.769,232.917 279.345,110.565 0.157,110.565 "/>
+  <polygon class="fil2 str2" points="641.654,110.274 295.344,110.274 364.458,0.157 641.654,0.157 "/>
+  <polygon class="fil3 str3" points="641.654,110.566 295.344,110.566 364.458,232.918 641.654,232.918 "/>
+ </g>
+</svg>

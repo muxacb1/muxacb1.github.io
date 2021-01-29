@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Futura New Book';
+    src: url('FuturaNewBook-Reg.woff2') format('woff2'),
+        url('FuturaNewBook-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura New Bold - Reg';
+    src: url('FuturaNewBold-Reg.woff2') format('woff2'),
+        url('FuturaNewBold-Reg.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura New Heavy - Reg';
+    src: url('FuturaNewHeavy-Reg.woff2') format('woff2'),
+        url('FuturaNewHeavy-Reg.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura New Light - Reg';
+    src: url('FuturaNewLight-Reg.woff2') format('woff2'),
+        url('FuturaNewLight-Reg.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura New Medium - Reg';
+    src: url('FuturaNewMedium-Reg.woff2') format('woff2'),
+        url('FuturaNewMedium-Reg.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('Lobster-Regular.woff2') format('woff2'),
+        url('Lobster-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
