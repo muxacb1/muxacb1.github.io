@@ -1165,9 +1165,8 @@ body.ie ._ibg img {
 	margin: 0px 0px 5px 0px;
 }
 
-.call-master {
+.call-master-form {
 	-webkit-appearance: none;
-	-webkit-border-radius: 0;
 }
 
 .call-master-form__item {
