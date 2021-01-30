@@ -191,6 +191,11 @@ textarea {
 	        flex: 0 0 170px;
 	display: block;
 }
+@media (max-width: 480px) {
+	.call-master-form__btn {
+		font-size: 13px;
+	}
+}
 @media (max-width: 320px) {
 	.call-master-form__btn {
 		-webkit-box-flex: 0;
