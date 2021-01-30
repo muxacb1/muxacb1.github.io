@@ -4,7 +4,7 @@
 		<title>Главная</title>
 		<meta charset="UTF-8">
 		<meta name="format-detection" content="telephone=no">
-		<link rel="stylesheet" href="css/style.css?v=2">
+		<link rel="stylesheet" href="css/style.css?v=3">
 		<link rel="shortcut icon" href="favicon.ico">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
@@ -39,14 +39,14 @@
 									<p class="hero-price-block__title">стоимость решения проблемы:</p>
 									<div class="hero-price-block__price">от <span>350</span></div>
 									<div class="hero-price-block__cur">рублей</div>
-									<a href="#" class="hero-left__btn">Уточнить стоимость решения вашей проблемы</a>
+									<a href="#callback" class="hero-left__btn _popup-link">Уточнить стоимость решения вашей проблемы</a>
 								</div>
 							</div>
 							<div class="hero__right hero-right">
 								<div class="hero-right__contacts hero-contacts">
 									<p class="hero-contacts__text">Контакты для быстрой связи с нами:</p>
 									<a href="tel:89029402699" class="hero-contacts__tel">8(902) 940-26-99</a>
-									<a href="#" class="hero-contacts__btn">Перезвонить вам<br>через 1 минуту</a>
+									<a href="#callback" class="hero-contacts__btn _popup-link">Перезвонить вам<br>через 1 минуту</a>
 									<p class="hero-contacts__help">/ За 7 дней к нашим специалистам обратились и получили скорую помощь <span>125</span> человек</p>
 								</div>
 							</div>
@@ -85,7 +85,8 @@
 					<div class="_container">
 						<form action="#" class="call-master-form">
 							<div class="call-master-form__item">
-								<input id="inp" autocomplete="off" type="text" placeholder="Ваш телефон:">
+								<label for="tel" class="form__label">Введите телефон</label>
+								<input id="tel" autocomplete="off" type="text" name="tel" data-error="Введите телефон" data-value="Введите телефон" class="_phone _req">
 								<button type="submit" class="call-master-form__btn">вызвать мастера</button>
 							</div>
 						</form>
@@ -145,7 +146,7 @@
 										<img src="img/services/1.jpg" alt="">
 									</div>
 								</div>
-								<a href="#" class="services-item__btn">Вскрыть замок</a>
+								<a href="#callback" class="services-item__btn _popup-link">Вскрыть замок</a>
 							</div>
 							<div class="services__item services-item">
 								<div class="services-item__row">
@@ -155,7 +156,7 @@
 									</div>
 									<p class="services__bt">от 800 рублей</p>
 								</div>
-								<a href="#" class="services-item__btn">Вскрыть двери</a>
+								<a href="#callback" class="services-item__btn _popup-link">Вскрыть двери</a>
 							</div>
 							<div class="services__item services-item">
 								<div class="services-item__row">
@@ -165,7 +166,7 @@
 									</div>
 									<p class="services__bt">от 1000 рублей</p>
 								</div>
-								<a href="#" class="services-item__btn">Вскрыть гараж</a>
+								<a href="#callback" class="services-item__btn _popup-link">Вскрыть гараж</a>
 							</div>
 							<div class="services__item services-item">
 								<div class="services-item__row">
@@ -175,7 +176,7 @@
 									</div>
 									<p class="services__bt">от 1000 рублей</p>
 								</div>
-								<a href="#" class="services-item__btn">Вскрыть сейф</a>
+								<a href="#callback" class="services-item__btn _popup-link">Вскрыть сейф</a>
 							</div>
 							<div class="services__item services-item">
 								<div class="services-item__row">
@@ -185,7 +186,7 @@
 									</div>
 									<p class="services__bt">от 800 рублей</p>
 								</div>
-								<a href="#" class="services-item__btn">Вскрыть авто</a>
+								<a href="#callback" class="services-item__btn _popup-link">Вскрыть авто</a>
 							</div>
 							<div class="services__item services-item">
 								<div class="services-item__row">
@@ -195,7 +196,7 @@
 									</div>
 									<p class="services__bt">от 1000 рублей</p>
 								</div>
-								<a href="#" class="services-item__btn">Установить замок</a>
+								<a href="#callback" class="services-item__btn _popup-link">Установить замок</a>
 							</div>
 						</div>
 					</div>
@@ -320,12 +321,14 @@
 						<p class="feedback__subtitle">Оставьте заявку и мы вам перезвоним через 1 минуту</p>
 						<form action="#" class="feedback-form">
 							<div class="form__item">
-								<input id="inp" autocomplete="off" type="text" name="form[]" placeholder="Ваше имя">
+								<label for="name" class="form__label">Ваше имя</label>
+								<input id="name" autocomplete="off" type="text" name="name" data-error="Введите имя" data-value="Ваше имя" class="input">
 							</div>
 							<div class="form__item">
-								<input id="inp" autocomplete="off" type="text" name="form[]" placeholder="Ваш телефон">
+								<label for="tel-b" class="form__label" >Ваш телефон*</label>
+								<input id="tel-b" autocomplete="off" type="text" name="tel-b" data-error="Введите телефон" data-value="Ваш телефон*" class="input _phone _req">
 							</div>
-							<button type="submit" class="form__btn btn">оставить заявку</button>
+							<button type="submit" class="form__btn">оставить заявку</button>
 						</form>
 					</div>
 				</section>
@@ -352,5 +355,23 @@
 				</div>
 			</footer>
 		</div>
-	</body>
+			<div class="popup popup_callback">
+				<div class="popup__content">
+					<div class="popup__body">
+						<div class="popup__close"></div>
+						<h3 class="title feedback__title">бесплатная консультация для вас:</h3>
+						<p class="feedback__subtitle">Оставьте заявку и мы вам перезвоним через 1 минуту</p>
+						<form action="#" class="feedback-form">
+							<div class="form__item">
+								<label for="tel-m" class="form__label" >Ваш телефон*</label>
+								<input id="tel-m" autocomplete="off" type="text" name="tel-m" data-error="Введите телефон" data-value="Ваш телефон*" class="input _phone _req">
+							</div>
+							<button type="submit" class="form__btn">оставить заявку</button>
+						</form>
+					</div>
+				</div>
+			</div>
+<script src="js/vendors.js"></script>
+<script src="js/app.js"></script>
+<script src="js/custom.js"></script>	</body>
 </html>
