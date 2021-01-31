@@ -2148,8 +2148,11 @@ body.ie ._ibg img {
 	font-family: "Futura New Medium - Reg";
 	font-size: 20px;
 	text-align: center;
-	text-transform: uppercase;
 	margin: 0px 0px 24px 0px;
+}
+.footer__title span {
+	color: #313562;
+	text-transform: uppercase;
 }
 @media (max-width: 750px) {
 	.footer__title {
