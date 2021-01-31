@@ -2232,6 +2232,7 @@ body.ie ._ibg img {
 
 .phonestick {
 	position: fixed;
+	z-index: 5;
 	bottom: 20px;
 	right: 20px;
 	width: 70px;
@@ -2248,6 +2249,8 @@ body.ie ._ibg img {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
+	-webkit-box-shadow: 6px 7px 17px -7px rgba(0, 0, 0, 0.62);
+	box-shadow: 6px 7px 17px -7px rgba(0, 0, 0, 0.62);
 	-webkit-animation: phonestick 1.5s infinite alternate;
 	        animation: phonestick 1.5s infinite alternate;
 }
