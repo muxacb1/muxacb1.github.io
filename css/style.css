@@ -2063,12 +2063,7 @@ body.ie ._ibg img {
 .feedback-form input::placeholder {
 	color: #313562;
 }
-
-.form__item {
-	margin: 0px 0px 34px 0px;
-}
-
-.form__btn {
+.feedback-form .form__btn {
 	width: 253px;
 	height: 52px;
 	-webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.41);
@@ -2078,6 +2073,10 @@ body.ie ._ibg img {
 	color: #fbfbfc;
 	font-size: 20px;
 	text-transform: uppercase;
+}
+
+.form__item {
+	margin: 0px 0px 34px 0px;
 }
 
 .footer {
@@ -2120,7 +2119,7 @@ body.ie ._ibg img {
 }
 
 .footer-left__block {
-	width: 143px;
+	width: 300px;
 }
 @media (max-width: 750px) {
 	.footer-left__block {
@@ -2148,6 +2147,7 @@ body.ie ._ibg img {
 	color: #fbfbfc;
 	font-family: "Futura New Medium - Reg";
 	font-size: 20px;
+	text-align: center;
 	text-transform: uppercase;
 	margin: 0px 0px 24px 0px;
 }
