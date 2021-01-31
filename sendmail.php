@@ -11,25 +11,49 @@
 	$mail->IsHTML(true);
 
 	//От кого письмо
-	$mail->setFrom('noreply@google.com', ' ');
+	$mail->setFrom('admin@gmail.com', 'Фрилансер по жизни');
 	//Кому отправить
 	$mail->addAddress('_muxacb@inbox.ru');
 	//Тема письма
-	$mail->Subject = 'Заявка с сайта"';
+	$mail->Subject = 'Привет! Это "Фрилансер по жизни"';
 
+	//Рука
+	$hand = "Правая";
+	if($_POST['hand'] == "left"){
+		$hand = "Левая";
+	}
 
 	//Тело письма
-	$body = '<h1>Заявка с сайта!</h1>';
+	$body = '<h1>Встречайте супер письмо!</h1>';
 	
 	if(trim(!empty($_POST['name']))){
 		$body.='<p><strong>Имя:</strong> '.$_POST['name'].'</p>';
 	}
 	if(trim(!empty($_POST['tel']))){
 		$body.='<p><strong>Телефон:</strong> '.$_POST['tel'].'</p>';
+	}
+
+	if(trim(!empty($_POST['email']))){
+		$body.='<p><strong>E-mail:</strong> '.$_POST['email'].'</p>';
+	}
 	
+	if(trim(!empty($_POST['message']))){
+		$body.='<p><strong>Сообщение:</strong> '.$_POST['message'].'</p>';
+	}
+	
+	//Прикрепить файл
+	if (!empty($_FILES['image']['tmp_name'])) {
+		//путь загрузки файла
+		$filePath = __DIR__ . "/files/" . $_FILES['image']['name']; 
+		//грузим файл
+		if (copy($_FILES['image']['tmp_name'], $filePath)){
+			$fileAttach = $filePath;
+			$body.='<p><strong>Фото в приложении</strong>';
+			$mail->addAttachment($fileAttach);
+		}
+	}
 
-
-//	$mail->Body = $body;
+	$mail->Body = $body;
 
 	//Отправляем
 	if (!$mail->send()) {
